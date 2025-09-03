@@ -16,6 +16,7 @@ function App() {
   const fetchAnalysis = async () => {
     try {
       setLoading(true);
+      setAnalysisData(null);
       const response = await fetch(
         `${import.meta.env.VITE_BACKEND_URL}/api/analyze`,
         {
