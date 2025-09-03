@@ -7,6 +7,7 @@ This is a sample frontend built with Typescript, React, and Vite.
 1. Clone this repo
 2. Run `npm install`
 3. Create a `.env` file and add `VITE_BACKEND_URL=http://localhost:3000` <- change this to match what your BE service is running on
+4. Run `npm run dev` to start
 
 ## Explanation
 
